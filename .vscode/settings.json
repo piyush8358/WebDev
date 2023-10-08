@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/day1/index.html"
+    "livePreview.defaultPreviewPath": "/day1/index.html",
+    "livePreview.openPreviewTarget": "External Browser"
 }
