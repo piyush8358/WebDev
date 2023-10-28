@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+        /* The specificity of this selector is 1  */
+        h1 {
+            color: aqua;
+        }
+
+        /* The specificity of this selector is 10 */
+        .cpurple {
+            color: purple;
+        }
+
+        /* The specificity of this selector is 10  */
+        .cred {
+            color: red;
+        }
+
+        /* The specificity of this selector is 10  */
+        .cyellow {
+            color: yellow
+        }
+
+        /* The specificity of this selector is 10  */
+        [data-x] {
+            /* Attribute Selector */
+            color: green;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <h1 class="cpurple cred cyellow" data-x >Hey We're working on CSS</h1>
+</body>
+
+</html>
